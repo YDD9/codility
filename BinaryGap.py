@@ -4,6 +4,8 @@ def solution(N):
     bg = max('{0:b}'.format(N).strip('0').split('1'))
     return 0 if bg == '' else len(bg)
 
+## special case to verify N=1, N=2**n
+
 
 # ## http://disq.us/p/1fnc2pv
 # Java solution meets the time and space requirements
