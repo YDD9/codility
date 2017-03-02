@@ -11,3 +11,7 @@ def getOdd(arr):
 
 ## http://www.geeksforgeeks.org/find-the-two-numbers-with-odd-occurences-in-an-unsorted-array/
 ## http://stackoverflow.com/questions/22952651/explain-using-xor-to-find-two-non-duplicate-integers-in-an-array
+
+
+## all methodes examples!!!
+## http://www.geeksforgeeks.org/find-the-two-repeating-elements-in-a-given-array/
