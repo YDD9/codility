@@ -3,8 +3,9 @@ def solution(A, K):
     if n==0 or n==1:
         return A
 
-    K = K % n
     if K <= 0:
+        K = K % n
+
         return A
     else:
         return A[-K:] + A[: (n-K)]
