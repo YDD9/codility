@@ -1,6 +1,11 @@
 # you can write to stdout for debugging purposes, e.g.
 # print "this is a debug message"
 
+## Empty list X of len(A), any positive value of A must be in X and index as value-1
+## Index of first 0 in X tells the missing value i+1
+## If no 0 exists in X, sum should be N and A misses no positive integer but N+1
+## If A are all negative, always return first positive integer 1
+
 def solution(A):
     # write your code in Python 2.7
 
