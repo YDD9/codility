@@ -32,4 +32,4 @@ def solution(N, A):
                 maxcount = res[A[K]-1]                
         if A[K] == N + 1:
             sumcount += maxcount 
-    return res + [sumcount] * N
+    return [sumcount+x for x in res]
