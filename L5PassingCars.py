@@ -57,7 +57,7 @@ Starting from the array's index 0, namely the first car, we have to check its di
             east += 1
         else:
             passingcars += east
-            if passingcars >= 1000000000:
+            if passingcars > 1000000000:
               return -1
 
     return passingcars
